@@ -62,11 +62,11 @@ docker run \
 ### Or... clone this repo and run via docker-compose
 
 ```
-git clone https://github.com/dmuth/musicbot-docker.git
+git clone https://github.com/alexbarlim/musicbot-docker.git
 cd musicbot-docker
 cp docker-compose.yml.example docker-compose.yml
 vim docker-compose.yml # Edit this file and include the API token, and owner and channel info
-docker compose build && docker-compose up
+docker-compose build && docker-compose up
 ```
 
 
