@@ -51,7 +51,7 @@ BindToChannels = %TEXT_CHANNEL%
 ; Join a channel on startup.  Multiple channels can be added for multiple servers. Remember, use IDs, not names.
 ; If both this option and AutoSummon are enabled, this option takes priority.
 ;
-AutojoinChannels = %VOICE_CHANNEL%
+;AutojoinChannels = %VOICE_CHANNEL%
 
 [MusicBot]
 ; The starting volume of the bot.  You can use any value from 0.01 to 1.0 but 0.15 is probably fine
